@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./Imagens/Imagem1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #48c5ce;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+section{
+    padding: 50px;
+    background-image: url(./Imagens/Imagem2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.525);
+    padding: 20px;
+    float: right;
+    border-radius: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input, button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(243, 240, 246, 0.301);
+}
+button{
+    color: black;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
